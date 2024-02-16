@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Files</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="./css/framework.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./fontawesome-free-6.5.1-web/css/all.min.css" />
+</head>
+
+<body>
+    <div class="d-flex page">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0">elhot</h3>
+            <ul>
+                <li>
+                    <a href="index.html" class="d-flex c-black fs-14 p-10 rad-6 align-center">
+                        <i class="fa-solid fa-chart-column fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- Start Head -->
+            <div class="head bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input type="search" placeholder="Type A Keyword" class="p-10">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </span>
+                    <img src="./images/avatar.png" alt="">
+                </div>
+            </div>
+            <!-- End Head -->
+            <h1 class="p-relative main-h1">Files</h1>
+            <div class="files-page m-20 d-flex">
+                <div class="files-statistics p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-20">Files Statistics</h2>
+                    <div class="box p-10 bb-one bt-one mb-10 fs-13 d-flex align-center">
+                        <i class="fa-regular fa-file-pdf fa-lg blue c-blue icon"></i>
+                        <div class="info f-grow">
+                            <span class="mb-5 d-block">Pdf Files</span>
+                            <span class="c-grey d-block">100 File</span>
+                        </div>
+                        <div class="c-grey">3Gb</div>
+                    </div>
+                    <div class="box p-10 bb-one bt-one mb-10 fs-13 d-flex align-center">
+                        <i class="fa-regular fa-images fa-lg green c-green icon"></i>
+                        <div class="info f-grow">
+                            <span class="mb-5 d-block">Image Files</span>
+                            <span class="c-grey d-block">150 File</span>
+                        </div>
+                        <div class="c-grey">5Gb</div>
+                    </div>
+                    <div class="box p-10 bb-one bt-one mb-10 fs-13 d-flex align-center">
+                        <i class="fa-regular fa-file-word fa-lg red center-flex c-red icon"></i>
+                        <div class="info f-grow">
+                            <span class="mb-5 d-block">Word Files</span>
+                            <span class="c-grey d-block">200 File</span>
+                        </div>
+                        <div class="c-grey">7Gb</div>
+                    </div>
+                    <div class="box p-10 bb-one bt-one mb-10 fs-13 d-flex align-center">
+                        <i class="fa-solid fa-file-csv fa-lg orange center-flex c-orange icon"></i>
+                        <div class="info f-grow">
+                            <span class="mb-5 d-block">Csv Files</span>
+                            <span class="c-grey d-block">250 File</span>
+                        </div>
+                        <div class="c-grey">9Gb</div>
+                    </div>
+                    <a href="#" class="bg-blue c-white fs-14">
+                    <i class="fa-solid fa-angles-up mr-10"></i>
+                    Upload
+                    </a>
+                </div>
+                <div class="files p-20 .bg-white .rad-10 d-grid gap-10">
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/pdf.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.pdf</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">15/2/2024</span>
+                            <span class="d-block c-grey">15Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/dll.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.dll</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Mohamed</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">17/2/2024</span>
+                            <span class="d-block c-grey">1.5Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/txt.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.txt</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Ahmed</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">19/2/2024</span>
+                            <span class="d-block c-grey">1.5Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/psd.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.psd</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Ahmed</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">21/2/2024</span>
+                            <span class="d-block c-grey">2.3Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/png.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.png</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Mostafa</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">23/2/2024</span>
+                            <span class="d-block c-grey">2.8Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/sql.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.sql</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">15/2/2024</span>
+                            <span class="d-block c-grey">5Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/pdf.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.pdf</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">15/2/2024</span>
+                            <span class="d-block c-grey">15Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/zip.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.zip</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">20/2/2024</span>
+                            <span class="d-block c-grey">1Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/avi.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.avi</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">5/2/2024</span>
+                            <span class="d-block c-grey">7Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/eps.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.eps</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">18/2/2024</span>
+                            <span class="d-block c-grey">6Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/pdf.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.pdf</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">15/2/2024</span>
+                            <span class="d-block c-grey">15Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/dll.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.dll</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Mohamed</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">17/2/2024</span>
+                            <span class="d-block c-grey">1.5Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/txt.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.txt</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Ahmed</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">19/2/2024</span>
+                            <span class="d-block c-grey">1.5Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/psd.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.psd</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Ahmed</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">21/2/2024</span>
+                            <span class="d-block c-grey">2.3Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/png.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.png</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Mostafa</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">23/2/2024</span>
+                            <span class="d-block c-grey">2.8Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/sql.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.sql</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">15/2/2024</span>
+                            <span class="d-block c-grey">5Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/pdf.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.pdf</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">15/2/2024</span>
+                            <span class="d-block c-grey">15Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/zip.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.zip</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">20/2/2024</span>
+                            <span class="d-block c-grey">1Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/avi.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.avi</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">5/2/2024</span>
+                            <span class="d-block c-grey">7Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/eps.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.eps</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">18/2/2024</span>
+                            <span class="d-block c-grey">6Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/pdf.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.pdf</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Elhot</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">15/2/2024</span>
+                            <span class="d-block c-grey">15Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/dll.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.dll</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Mohamed</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">17/2/2024</span>
+                            <span class="d-block c-grey">1.5Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/txt.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.txt</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Ahmed</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">19/2/2024</span>
+                            <span class="d-block c-grey">1.5Mb</span>
+                        </div>
+                    </div>
+                    <div class="box p-10 p-relative">
+                        <i class="fa-solid fa-download c-grey p-absolute"></i>
+                        <div class="info txt-c c-grey mt-10 mb-10">
+                            <img src="./images/psd.svg" alt="" class="mb-15">
+                            <h4 class="fw-light mb-10 c-black">my-file.psd</h4>
+                        </div>
+                        <span class="c-grey d-block bb-one pb-10">Ahmed</span>
+                        <div class="date mt-10 mb-10 d-flex align-center">
+                            <span class="d-block f-grow c-grey">21/2/2024</span>
+                            <span class="d-block c-grey">2.3Mb</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+
+</html>
