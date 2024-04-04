@@ -1488,6 +1488,19 @@ padding: 20px 10px;
 .files-page .files {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     flex: 1;
+    background: #eee !important;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.files-page .files .box {
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
 }
 .files-page .files .box .info img {
     width: 60px;
